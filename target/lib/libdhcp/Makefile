@@ -3,6 +3,7 @@
 
 DHCPDIR=${.CURDIR}/../../../contrib/dhcp
 .PATH: ${DHCPDIR}/common
+.PATH: ${DHCPDIR}/omapip
 
 CFLAGS+=	-I${DHCPDIR} -I${DHCPDIR}/includes
 
