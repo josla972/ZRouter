@@ -122,6 +122,7 @@ WORLD_SUBDIRS_USR_BIN+= \
 basename \
 cap_mkdb \
 dirname \
+su \
 fetch \
 find \
 getopt \
