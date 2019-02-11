@@ -2,7 +2,7 @@
 
 # that may used for any platform
 # we need only say cross-build to configure
-CFLAGS="-std=c99 -I${WORLDDESTDIR}/include"
+CFLAGS="-Os -pipe -std=c99 -I${WORLDDESTDIR}/include"
 
 _TARGET_DEFS = \
 	WITHOUT_CHECK=yes \
